@@ -37,17 +37,17 @@ An **Automated Performance Analysis Tool** for Wireless Sensor Networks (WSN) th
 
 ## 📂 Project Structure
 
-pro/
-├── main.py # Main execution script
-├── dashboard_app.py # Streamlit dashboard
-├── analysis.py # Data analysis logic
-├── plots.py # Visualization functions
-├── report.py # PDF report generation
-├── db.py # Database handling
-├── convert_kaggle.py # Dataset conversion script
-├── sensor_data.csv # Sample dataset
-├── kaggle_converted.csv # Processed dataset
-└── requirements.txt # Dependencies
+- `pro/`
+  - `main.py`                 # Main execution script
+  - `dashboard_app.py`        # Streamlit dashboard
+  - `analysis.py`             # Data analysis logic
+  - `plots.py`                # Visualization functions
+  - `report.py`               # PDF report generation
+  - `db.py`                   # Database handling
+  - `convert_kaggle.py`       # Dataset conversion script
+  - `sensor_data.csv`         # Sample dataset
+  - `kaggle_converted.csv`    # Processed dataset
+  - `requirements.txt`        # Dependencies
 
 
 
