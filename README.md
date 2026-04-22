@@ -53,19 +53,10 @@ An **Automated Performance Analysis Tool** for Wireless Sensor Networks (WSN) th
 
 ---
 
-## ⚙️ Installation
+## ▶️ Run the Project
 
-1. Clone the repository:
+### Run dashboard
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
-Create virtual environment:
-python -m venv .venv
-.venv\Scripts\activate   # Windows
-Install dependencies:
-pip install -r requirements.txt
-▶️ Run the Project
-Run dashboard:
 streamlit run dashboard_app.py
 Run analysis:
 python main.py
@@ -78,11 +69,7 @@ pdr
 latency
 energy
 lifetime
-📌 Example Output
-Dashboard with interactive charts
-Performance metrics summary
-Alerts for low PDR / high latency
-PDF report generation
+
 💡 Future Improvements
 Live IoT data integration
 Cloud deployment
