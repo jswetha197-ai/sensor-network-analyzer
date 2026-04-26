@@ -37,41 +37,53 @@ An **Automated Performance Analysis Tool** for Wireless Sensor Networks (WSN) th
 
 ## 📂 Project Structure
 
-- `pro/`
-  - `main.py`                 # Main execution script
-  - `dashboard_app.py`        # Streamlit dashboard
-  - `analysis.py`             # Data analysis logic
-  - `plots.py`                # Visualization functions
-  - `report.py`               # PDF report generation
-  - `db.py`                   # Database handling
-  - `convert_kaggle.py`       # Dataset conversion script
-  - `sensor_data.csv`         # Sample dataset
-  - `kaggle_converted.csv`    # Processed dataset
-  - `requirements.txt`        # Dependencies
-
-
+```text
+pro/
+│── main.py                 # Main execution script
+│── dashboard_app.py        # Streamlit dashboard
+│── analysis.py             # Data analysis logic
+│── plots.py                # Visualization functions
+│── report.py               # PDF report generation
+│── db.py                   # Database handling
+│── convert_kaggle.py       # Dataset conversion script
+│── sensor_data.csv         # Sample dataset
+│── kaggle_converted.csv    # Processed dataset
+│── requirements.txt        # Dependencies
+```
 
 ---
 
 ## ▶️ Run the Project
 
-### Run dashboard
+### Run Dashboard
+
 ```bash
 streamlit run dashboard_app.py
-Run analysis:
+```
+
+### Run Analysis
+
+```bash
 python main.py
-📊 Input Data Format
+```
+
+---
+
+## 📊 Input Data Format
 
 CSV should contain columns like:
 
-node_id
-pdr
-latency
-energy
-lifetime
+- node_id
+- pdr
+- latency
+- energy
+- lifetime
 
-💡 Future Improvements
-Live IoT data integration
-Cloud deployment
-Machine learning predictions
-Real-time monitoring
+---
+
+## 💡 Future Improvements
+
+- Live IoT data integration
+- Cloud deployment
+- Machine learning predictions
+- Real-time monitoring
